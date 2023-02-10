@@ -1,0 +1,75 @@
+{
+  "name": "Mail_MERGE",
+  "description": "PDF TEMPLATE",
+  "main": "Main.xaml",
+  "dependencies": {
+    "AvalonEdit": "[6.1.3.50]",
+    "DocumentFormat.OpenXml": "[2.19.0]",
+    "Microsoft.ApplicationInsights": "[2.22.0-beta1]",
+    "Microsoft.AspNetCore.Http.Connections.Common": "[3.1.6]",
+    "Microsoft.AspNetCore.SignalR.Common": "[3.1.6]",
+    "Microsoft.AspNetCore.SignalR.Protocols.Json": "[3.1.6]",
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": "[7.0.1]",
+    "Microsoft.Bcl.AsyncInterfaces": "[7.0.0]",
+    "Microsoft.CodeAnalysis.Common": "[3.8.0]",
+    "Microsoft.CodeAnalysis.CSharp": "[3.8.0]",
+    "NPOI": "[2.6.0]",
+    "UiPath.Excel.Activities": "[2.17.0-preview]",
+    "UiPath.Mail.Activities": "[1.18.2]",
+    "UiPath.Python.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[22.10.4]",
+    "UiPath.Testing.Activities": "[22.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[22.10.4]",
+    "UiPath.Word.Activities": "[1.14.0-preview]",
+    "Xceed.Document.NET": "[2.0.21359.11160]",
+    "Xceed.Pdf": "[2.0.21359.11160]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.12.0.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "d6fc20d0-4895-471c-bee7-ba48bd14a27e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
